@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yantramanav',
+        sans-serif;
+    height: 100vh;
+    background-color: rgba(18, 146, 114, 0.918);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 570px;
+    height: 450px;
+    background-color: #fff;
+
+    border-radius: 5px;
+    box-shadow: 1px 10px 10px 3px rgba(0, 0, 0, 0.2);
+    padding: 40px 50px;
+    background-image: url(./images/bicycle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5px 180px;
+}
+
+.top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.paragrof {
+    font-size: 15px;
+    font-weight: normal;
+    opacity: .6;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.price {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account {
+    width: 20px;
+    height: 20px;
+}
+
+.circle:hover {
+    box-shadow: .1px .1px 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transition: .2s;
+
+}
